@@ -1,0 +1,281 @@
+
+*{
+    padding: 0;
+    margin: 0;  
+    font-family: "Open Sans", sans-serif;
+ }
+
+ body{
+    background-color: #000000;
+ }
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+ }
+ nav {
+    /* padding: 10px 0px;
+    background-color:pink; */
+    position: absolute;
+    color: white;
+    top: 50px;
+    z-index: 2;
+    left: 100px;
+ }
+ .navWrap {
+    display: flex;
+    justify-content: space-between;
+ }
+.menu ul{
+   display: flex;
+   gap: 60px;
+   list-style: none;
+}
+ .menu ul li a{
+    color: white;
+    /* padding: 0px 30px; */
+    text-decoration: none;
+    
+ }
+ .menu ul li a:hover{
+   text-decoration: none;
+   color: #000000;
+}
+ #banner{
+   position: relative;
+    background: url('./DIdonasia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 900px; */
+ }
+
+ .banText{
+    padding-top: 425px;
+    padding-bottom: 381px;
+    color: white;
+ }
+
+
+.banText h3{
+    font-family: Open Sans;
+    letter-spacing: 7px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFC178;
+}
+.banText h1{
+    font-family: Open Sans;
+    letter-spacing: 0%;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;   
+}
+.Wonderful {
+    display: block;
+    font-weight: 400;
+}
+/* *****************
+*****2nPart****Start***** */
+#girl{
+   margin-top: 150px;
+}
+.yellowgirl {
+   gap: 50px;
+   display: flex;
+   align-items: center;
+}
+.word h3{
+   letter-spacing: 7px;
+   font-size: 18px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: #FFC178;
+}
+.word{
+   color: white;
+}
+.read {
+   color: white; 
+  margin-top: 70px; 
+}
+
+.Repet1-readMore a:hover{
+   text-decoration: none;
+   color: #FBD784;
+  
+}
+/* ************2nPart****END*****
+***3rdPart*****Bromo start here***** */
+#bromo{
+   margin-top: 50px;
+}
+.steady{
+   position: relative;
+}
+.hill {
+   position: absolute;
+   text-align: center;
+   bottom: 135px;
+   left: 250px;
+}
+.line1{
+ color: #FBD784;
+}
+.line2{
+   font-size: 30px;
+   color: white;
+}
+.line2 h2 span{
+   display: block; 
+}
+.line3 p{
+   color:white;
+}
+/* ***3rdPart*****Bromo End here***** */ 
+/* ***4thPart*****explore***Start here***** */
+#explore{
+   margin-top: 130px;
+}
+.ExplorePic{
+   display: flex;
+   gap: 80px;
+}
+/* ***4thPart*****explore***END here***** */
+
+/* ***5thPart*****INDONESIAN-CULTURE***Start here***** */
+#INDONESIAN-CULTURE{
+   margin-top:100px;
+}
+.indoCultureBox{
+   display: flex;
+   align-items: center;
+}
+.startText h3{
+   color: #FBD784;
+   word-spacing: 6px;
+}
+.friendly h3{
+   font-size: 64px;
+   color: white;
+   width: 700;
+  
+}
+.friendlyParagraph p{
+   padding-top: 20px;
+   color: white;
+}
+.Repet2-readMore a:hover{
+     color: #FBD784; 
+}
+.Repet2-readMore {
+   text-decoration: none;
+   color: #FBD784;
+      padding-top: 50px;
+}
+/* ***5thPart*****INDONESIAN-CULTURE***END here***** */
+#Footer{
+   margin-top: 100px;
+}
+.footerWrap{
+   color: white;
+}
+.ready h2{
+   color: white;
+}
+.btn button{
+   padding: 10px 30px;
+   background-color: #ffa343;
+   border-radius: 7px;
+   border-color: #000000;
+}
+.topFootpart{
+   display: flex;
+   justify-content: space-between;
+}
+
+.torysec h2{   
+   /* display: flex; */
+   font-size: 40px;
+   /* color: white; */
+}
+.allMiddlepart{
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+/* .part2Middle{
+   display: flex;
+   justify-content: space-between;
+   column-gap: 50px;
+   
+} */
+.onVacation h2{
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 100%;
+   letter-spacing: -0.3px;
+}
+.terms h6{
+   margin-top: 60px;
+}
+.icon{
+   display: flex;
+   gap: 20px;
+   padding-top: 20px;  
+}
+.icon i{
+  color: white;
+}
+
+.servicef{
+   color: white;
+   font-weight: 600;
+   font-size: 07px;  
+}
+.servicef ul li {
+   list-style: none;  
+}
+.servicef ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 10px;
+   font-weight: 400;
+}
+.aboutF{
+   color: white;
+   font-weight: 600;
+   font-size: 07px;  
+}
+.aboutF ul li {
+   list-style: none;
+   
+}
+.aboutF ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 10px;
+   font-weight: 400;
+}
+.HelpF{
+   color: white;
+   font-weight: 600;
+   font-size: 07px;  
+}
+.HelpF ul li {
+   list-style: none;
+   
+}
+.HelpF ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 10px;
+   font-weight: 400;
+}
+.copyright{
+   margin-top: 50px;
+   display: flex;
+    justify-content: center;
+}
